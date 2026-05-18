@@ -56,7 +56,7 @@ jobs:
     needs: deploy_staging
     steps:
       - name: Smoke test
-        run: test 1 -eq 1
+        run: test 1 -eq 2
 
   deploy_production:
     runs-on: ubuntu-latest
